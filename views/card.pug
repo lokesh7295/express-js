@@ -1,0 +1,13 @@
+extends layout.pug 
+    block content
+        section#content
+            ul
+                each color of colors
+                    li=color 
+
+            p= pvariable
+            p
+            i Hint : #{hint} 
+        
+        footer  
+            h1 An app to help you study   
